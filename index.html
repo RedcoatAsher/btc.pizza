@@ -1,43 +1,45 @@
 <html>
 
-<head>
-  <title>btc.pizza</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B2N7PDQ09"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <head>
+    <title>btc.pizza</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B2N7PDQ09"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-5B2N7PDQ09');
-  </script>
-</head>
-
-<body>
-  <div class="container text-center pad10 text-white">
-    <h1>🍕</h1>
-    <h1 class="italic">how much did the pizza cost?</h1>
-    <div class="d-flex text-white justify-content-center">
-      <div id="multiplied-price"></div>
+      gtag('config', 'G-5B2N7PDQ09');
+    </script>
+  </head>
+  <body>
+    <div class="container text-center pad10-t text-white"> 
+  <!--     <h1 class="italic">how much did the pizza cost?</h1> -->
+      <div class="d-flex text-white justify-content-center"> 
+        <div class="pad10-tb" id="multiplied-price"></div>
+      </div>
+      <div class="d-flex text-white justify-content-center"> 
+        <div class="btn-group pad10-tb" role="group">
+          <button id="usd-btn" type="button" class="btn btn-primary active">USD</button>
+          <button id="gbp-btn" type="button" class="btn btn-primary">GBP</button>
+          <button id="eur-btn" type="button" class="btn btn-primary">EUR</button>
+        </div>
+      </div>
     </div>
-    <div class="btn-group" role="group">
-      <button id="usd-btn" type="button" class="btn btn-primary active">USD</button>
-      <button id="gbp-btn" type="button" class="btn btn-primary">GBP</button>
-      <button id="eur-btn" type="button" class="btn btn-primary">EUR</button>
-    </div>
-  </div>
-  </div>
-  <footer class="d-flex justify-content-center text-white" id="made-with">
-    <p class="lato">Inspired by <a href="https://linktr.ee/hackedpodcast">Hacked™</a> — made with <a
-        href="https://gemini.google.com/">✨</a> in <a href="https://github.com/redcoatasher/btc.pizza">🇬🇧</a></p>
+      <div class="d-flex text-white justify-content-center"> 
+          <div class="pad10-tb">
+              <h4><a href="https://www.coinbase.com/en-gb/learn/crypto-glossary/what-is-bitcoin-pizza" target="_blank">The history of the Bitcoin Pizza.</a></h4>
+          </div>
+      </div>
+  <footer class="d-flex justify-content-center text-white pad10-tb" id="made-with">
+    <p class="lato">Inspired by <a href="https://linktr.ee/hackedpodcast" target="_blank">Hacked™</a> — made with <a href="https://gemini.google.com/" target="_blank">✨</a> in <a href="https://github.com/redcoatasher/btc.pizza" target="_blank">🇬🇧</a></p>
   </footer>
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
