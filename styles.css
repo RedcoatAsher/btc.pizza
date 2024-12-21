@@ -9,8 +9,8 @@ html {
   }
   
   html,
-  body{
-      background-color: #1b1b1b !important;
+  body {
+      background-color: #1b1b1b !important;  
   }
   
   h1 {
@@ -62,7 +62,7 @@ html {
   }
   
   button {
-      background-color: #4b4b4b !important;
+      background-color: #3b3b3b !important;
       border: 0 !important;
       padding: 0.3rem 1rem !important;
   }
@@ -81,7 +81,7 @@ html {
   }
   
   button.active {
-      background-color: #1b1b1b !important;
+      background-color: #6b6b6b !important;
   }
   
   a {
@@ -98,9 +98,7 @@ html {
     text-decoration: none !important;
   }
   
-  
-  
-  
+
   @media all and (min-width: 50px)    {  #multiplied-price  {  font-size:1em  !important; }   }
   @media all and (min-width: 100px)   {  #multiplied-price  {  font-size:1em  !important; }   }
   @media all and (min-width: 200px)   {  #multiplied-price  {  font-size:2em    !important; }   }
